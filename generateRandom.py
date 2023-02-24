@@ -19,8 +19,7 @@ while True:
                 f.write(value)
                 print(f'Succesfully wrote value: {value}') 
         startTime = os.path.getmtime('random-number.txt')
-        break
 
-    time.sleep(10)
+    time.sleep(10) # waits for 10 seconds update if less or more time needed 
 
         
